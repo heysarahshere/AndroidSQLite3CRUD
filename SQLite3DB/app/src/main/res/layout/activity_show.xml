@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Show">
+
+    <TextView
+        android:id="@+id/showLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Show Record"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/nameLabelAdd"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="32dp"
+        android:text="Name"
+        android:textAlignment="textEnd"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textName"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/idLabel"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:text="ID"
+        android:textAlignment="textEnd"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textId"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textCreated"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="#212122"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ratingLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textRating" />
+
+    <TextView
+        android:id="@+id/textModified"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="#212122"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ratingLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textCreated" />
+
+    <TextView
+        android:id="@+id/priceLabel2"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="32dp"
+        android:text="Price"
+        android:textAlignment="textEnd"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textPrice"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/descLabel2"
+        android:layout_width="104dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:text="Description"
+        android:textAlignment="textEnd"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textDesc"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/createdLabel"
+        android:layout_width="104dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:text="Created On"
+        android:textAlignment="textEnd"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textCreated"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/modLabel"
+        android:layout_width="104dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:text="Modified On"
+        android:textAlignment="textEnd"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textModified"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textRating"
+        android:layout_width="250dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textAlignment="textStart"
+        android:textColor="#212122"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ratingLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textPrice" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="#212122"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ratingLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textId" />
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="#212122"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ratingLabel"
+        app:layout_constraintTop_toBottomOf="@+id/showLabel" />
+
+    <TextView
+        android:id="@+id/textDesc"
+        android:layout_width="250dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textColor="#212122"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/descLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textName" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="250dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="#212122"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/priceLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textDesc" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:onClick="deleteButtonClicked"
+        android:text="DELETE"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:onClick="editButtonClicked"
+        android:text="Edit"
+        app:layout_constraintStart_toEndOf="@+id/deleteButton"
+        app:layout_constraintTop_toBottomOf="@+id/textModified" />
+
+    <TextView
+        android:id="@+id/ratingLabel2"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="32dp"
+        android:text="Rating"
+        android:textAlignment="textEnd"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textRating"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/moneyLabel"
+        android:layout_width="27dp"
+        android:layout_height="31dp"
+        android:text="$"
+        android:textAlignment="textEnd"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textPrice"
+        app:layout_constraintEnd_toStartOf="@+id/textPrice" />
+</androidx.constraintlayout.widget.ConstraintLayout>
